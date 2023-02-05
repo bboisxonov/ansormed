@@ -1,0 +1,36 @@
+.section1 {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+    &-title {
+      width: 600px;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 120%;
+      color: #ffffff;
+      margin: 0;
+    }
+    &-desc {
+      width: 420px;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: #ffffff;
+    }
+  }
+  &-right {
+    background: url("../../img/hero-right.png") no-repeat;
+    width: 423px;
+    height: 504px;
+  }
+}

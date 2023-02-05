@@ -10,5 +10,34 @@ body {
   max-width: 1160px;
   padding-right: 30px;
   padding-left: 30px;
-  margin: 0 auto;
+  margin: 32px auto;
+}
+
+.common-btn {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: 0.4s ease-in-out;
+  width: 240px;
+}
+.common-btn:hover {
+  background-color: #ffffff;
+  color: #de2e54;
+}
+
+.common-btn:active {
+  opacity: 0.6;
+  background: #de2e54;
+  color: #fff;
 }
