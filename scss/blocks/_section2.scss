@@ -1,0 +1,54 @@
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 110px 0;
+  &-title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    /* or 43px */
+
+    color: #000000;
+  }
+
+  &-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    &-image {
+      border-radius: 24px;
+      width: 200px;
+      height: 200px;
+    }
+    &-right {
+      width: 600px;
+      height: 150px;
+      margin-left: 70px;
+    }
+
+    &-title {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 120%;
+      /* identical to box height, or 29px */
+
+      color: #222222;
+    }
+    &-description {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      /* or 24px */
+
+      color: #444444;
+    }
+  }
+}

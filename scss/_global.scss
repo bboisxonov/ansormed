@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -40,4 +40,8 @@ body {
   opacity: 0.6;
   background: #de2e54;
   color: #fff;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
 }

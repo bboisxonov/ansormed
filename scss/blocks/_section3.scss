@@ -1,0 +1,50 @@
+.section3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  &-title {
+    font-family: "Open Sans, sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    /* or 43px */
+
+    color: #ffffff;
+    margin-top: 0;
+  }
+
+  &-buttons-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+  }
+
+  &-btn {
+    font-family: "Open Sans, sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background: #0eb4c1;
+    border-color: #fff;
+  }
+
+  &-btn:hover {
+    background: #de2e54;
+    border: 2px solid #de2e54;
+    color: #fff;
+  }
+  &-btn:active {
+    opacity: 0.6;
+  }
+}
